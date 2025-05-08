@@ -4,7 +4,7 @@
 
 ## 📝 Project Details
 - **📂 Repository:** [GitHub Repo](https://github.com/Matheesha-Abiman/Portfolio.git)
-- **🌐 Live Demo:** [Hosting Link]()
+- **🌐 Live Demo:** [Hosting Link](https://matheesha-abiman.github.io/Portfolio/)
 
 ## 🛠️ Technologies Used
 - 💻 HTML5
