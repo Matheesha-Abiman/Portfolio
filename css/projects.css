@@ -1,0 +1,450 @@
+.projects-header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerprojects {
+    font-size: 50px;
+    position: relative;
+    padding-left: 22px;
+    padding-bottom: 0px;
+}
+
+#projects {
+    position: relative;
+    letter-spacing: 80px;
+    left: 160px;
+    top: 5px;
+    font-size: 90px;
+    opacity: 0.25;
+}
+
+.topic_box4 {
+    width: 300px;
+    margin-left: 530px;
+    border: solid 5px white;
+    position: relative;
+    top: 0px;
+    left: -30px;
+}
+
+.line5 {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-top: 200px;
+    margin-left: 35px;
+    position: relative;
+    top: -60px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.col {
+    position: relative;
+    top: 6cqw;
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+}
+
+.card {
+    background-color:#081421;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.3);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+}
+
+.card-title {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #ccc;
+    font-size: 16px;
+}
+
+.card-footer {
+    background-color: #28282B;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.text-body-secondary {
+    font-size: 14px;
+}
+
+.card-title {
+    color: red;
+}
+
+.projectssec {
+    position: relative;
+    top: -50px;
+}
+
+@media (max-width: 320px) {
+    .headerprojects {
+        font-size: 30px;
+        padding-left: 25px;
+        
+    }
+
+    #projects {
+        letter-spacing: 20px;
+        left: -210px;
+        top: 230px;
+        font-size: 30px;
+    }
+
+    .topic_box4 {
+        width: 200px;
+        margin-left: 50px;
+        left: -215px;
+        top: 220px;
+    }
+
+    .line5 {
+        margin-top: 100px;
+        top: -30px;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .card {
+        width: 90%;
+        margin: 0 auto;
+        position: relative;
+        top: 280px;
+        left: -210px;
+    }
+
+    .card-body {
+        padding: 5px;
+    }
+
+    .card-title {
+        font-size: 20px;
+        position: relative;
+        left: 10px;
+    }
+
+    .card-text {
+        font-size: 12px;
+        position: relative;
+        left: 5px;
+        top: -5px;
+        
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .headerprojects {
+        font-size: 28px; 
+        padding-left: 20px; 
+    }
+
+    #projects {
+        letter-spacing: 15px; 
+        left: -180px; 
+        top: 200px; 
+        font-size: 28px; 
+    }
+
+    .topic_box4 {
+        width: 180px; 
+        margin-left: 40px; 
+        left: -170px; 
+        top: 190px; 
+    }
+
+    .line5 {
+        margin-top: 80px; 
+        top: -20px; 
+    }
+
+    .col {
+        flex: 1 1 100%; 
+        max-width: 100%; 
+    }
+
+    .card {
+        width: 85%;
+        margin: 0 auto;
+        position: relative; 
+        top: 250px; 
+        left: -235px; 
+    }
+
+    .card-body {
+        padding: 5px; 
+    }
+
+    .card-title {
+        font-size: 18px;
+        position: relative; 
+        left: 10px; 
+    }
+
+    .card-text {
+        font-size: 11px; 
+        position: relative;
+        left: 5px; 
+        top: -5px; 
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .headerprojects {
+        font-size: 32px; 
+        padding-left: 30px;
+    }
+
+    #projects {
+        letter-spacing: 18px; 
+        left: -160px; 
+        top: 240px; 
+        font-size: 32px; 
+    }
+
+    .topic_box4 {
+        width: 220px; 
+        margin-left: 60px;
+        left: -180px; 
+        top: 230px; 
+    }
+
+    .line5 {
+        margin-top: 90px; 
+        top: -25px; 
+    }
+
+    .col {
+        flex: 1 1 100%; 
+        max-width: 100%; 
+    }
+
+    .card {
+        width: 90%; 
+        margin: 0 auto; 
+        position: relative; 
+        top: 270px; 
+        left: -215px; 
+    }
+
+    .card-body {
+        padding: 8px; 
+    }
+
+    .card-title {
+        font-size: 22px;
+        position: relative;
+        left: 12px;
+    }
+
+    .card-text {
+        font-size: 14px; 
+        position: relative;
+        left: 6px; 
+        top: -4px; 
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .headerprojects {
+        font-size: 36px; 
+        padding-left: 40px; 
+    }
+
+    #projects {
+        letter-spacing: 20px; 
+        left: -180px; 
+        top: 260px; 
+        font-size: 36px; 
+    }
+
+    .topic_box4 {
+        width: 250px;
+        margin-left: 80px; 
+        left: -220px; 
+        top: 250px; 
+    }
+
+    .line5 {
+        margin-top: 100px; 
+        top: 260px; 
+        width: 1000px;
+        left: -400px;
+    }
+
+    .col {
+        flex: 1 1 50%; 
+        max-width: 50%; 
+    }
+
+    .card {
+        width: 90%; 
+        margin: 0 auto; 
+        position: relative; 
+        top: 300px; 
+        left: -380px; 
+    }
+
+    .card-body {
+        padding: 10px; 
+    }
+
+    .card-title {
+        font-size: 24px; 
+        position: relative; 
+        left: 15px;
+    }
+
+    .card-text {
+        font-size: 16px; 
+        position: relative; 
+        left: 8px; 
+        top: -3px; 
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .headerprojects {
+        font-size: 40px; 
+        padding-left: 50px;
+    }
+
+    #projects {
+        letter-spacing: 22px;
+        left: -50px; 
+        top: 300px; 
+        font-size: 40px; 
+    }
+
+    .topic_box4 {
+        width: 300px;
+        margin-left: 100px; 
+        left: -120px; 
+        top: 300px; 
+    }
+
+    .line5 {
+        margin-top: 120px; 
+        top: -15px; 
+    }
+
+    .col {
+        flex: 1 1 33.33%; 
+        max-width: 33.33%; 
+    }
+
+    .card {
+        width: 100%;
+        margin: 0 auto;
+        position: relative; 
+        top: 320px; 
+        left: -320px; 
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 26px; 
+        position: relative; 
+        left: 20px; 
+    }
+
+    .card-text {
+        font-size: 18px; 
+        position: relative; 
+        left: 10px; 
+        top: -2px; 
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .headerprojects {
+        font-size: 44px;
+        padding-left: 60px; 
+    }
+
+    #projects {
+        letter-spacing: 24px; 
+        left: -120px; 
+        top: 300px; 
+        font-size: 44px; 
+    }
+
+    .topic_box4 {
+        width: 350px;
+        margin-left: 120px; 
+        left: -130px;
+        top: 290px;
+    }
+
+    .line5 {
+        margin-top: 140px; 
+        top: -10px;
+    }
+
+    .col {
+        flex: 1 1 25%; 
+        max-width: 25%; 
+    }
+
+    .card {
+        width: 80%; 
+        margin: 0 auto; 
+        position: relative; 
+        top: 340px; 
+        left: -120px; 
+    }
+
+    .card-body {
+        padding: 20px; 
+    }
+
+    .card-title {
+        font-size: 28px; 
+        position: relative;
+        left: 25px; 
+    }
+
+    .card-text {
+        font-size: 20px;
+        position: relative; 
+        left: 12px; 
+        top: -1px; 
+    }
+}

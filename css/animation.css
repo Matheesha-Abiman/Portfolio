@@ -1,0 +1,12 @@
+.circle {
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    background-color: red;
+    position: fixed; /* Changed from absolute to fixed */
+    top: 0;
+    left: 0;
+    pointer-events: none; /* Add this to make circles click-through */
+    z-index: 9999; /* Ensure circles stay on top */
+    mix-blend-mode: difference; /* Optional: makes circles visible on any background */
+}

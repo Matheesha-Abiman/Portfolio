@@ -1,0 +1,541 @@
+.img1 {
+    border-radius: 18%;
+    float: right;
+    position: relative;
+    top: -475px;
+    left: 70px;
+}
+
+.header1 {
+    padding-top: 100px;
+}
+
+.header2 {
+    font-size: 70px;
+    color: red;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #414141;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.line {
+    width: 100%;
+    height: 2px; 
+    background-color: black; 
+    margin-top: 196px;
+    margin-left: 35px;
+}
+
+.social-links {
+    position: relative;
+    left: -80px;
+}
+
+.animated-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 2px;
+    animation: typing 4s steps(40) infinite, blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink-caret {
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ffffff;
+    }
+}
+
+.animated-heading::after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #ffffff;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .img1 {
+        width: 160px;
+        height: auto;
+        top: -630px;
+        left: -280px;
+    }
+
+    .header1 {
+        padding-top: 300px;
+        margin-top: 10px;
+        position: relative;
+        left: -220px;
+        top: -250px;
+        font-size: 22px;
+    }
+
+    .header2 {
+        font-size: 32px;
+        position: relative;
+        left: -220px;
+        top: -250px;
+    }
+
+    img.navbar-logo{
+        height: 30px;
+        width: 30px;
+    }
+
+    a.navbar-brand{
+        font-size: 20px;
+        position: relative;
+        left: -20px;
+    }
+
+    h2{
+        position: relative;
+        left: -220px;
+        top: -250px;
+    }
+
+    .animated-heading {
+        font-size: 26px;
+        position: relative;
+        left: -220px;
+        top: -235px;
+    }
+
+    .home-section p{
+        font-size: 13px;
+        position: relative;
+        left: -220px;
+        margin-top: -240px;
+    }
+
+    .box {
+        height: 30px;
+        width: 30px;
+        margin: 10px;
+        margin-top: 30px;
+        position: relative;
+        left: -80px;
+    }
+
+    .line {
+        margin-top: 60px;
+        width: 280px;
+        position: relative;
+        left: -250px;
+        top: -25px;
+    }
+
+    .social-links {
+        top: 20px;
+        left: -55px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+    .img1 {
+        width: 250px; 
+        height: auto;
+        top: -780px; 
+        left: -280px; 
+    }
+
+    .header1 {
+        padding-top: 250px; 
+        position: relative;
+        left: -220px; 
+        top: 0px;
+    }
+
+    .header2 {
+        font-size: 32px; 
+        position: relative;
+        left: -220px;
+        top: 0px;
+    }
+
+    img.navbar-logo {
+        height: 35px; 
+        width: 35px; 
+    }
+
+    a.navbar-brand {
+        font-size: 22px; 
+        position: relative;
+        left: -15px; 
+    }
+
+    h2 {
+        position: relative;
+        left: -220px; 
+        top: 0px;
+    }
+
+    .animated-heading {
+        font-size: 22px; 
+        position: relative;
+        left: -220px; 
+        
+    }
+
+    p {
+        font-size: 15px; 
+        position: relative;
+        left: -220px; 
+        padding-bottom: 10px;
+    }
+
+    .box {
+        height: 35px; 
+        width: 35px; 
+        margin: 12px; 
+        margin-top: 35px; 
+        position: relative;
+        left: -70px; 
+    }
+
+    .line {
+        margin-top: 60px; 
+        width: 300px; 
+        position: relative;
+        left: -250px; 
+    }
+
+    .social-links {
+        left: -35px; 
+    }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+    .img1 {
+        width: 260px;
+        height: auto;
+        position: relative;
+        left: -285px;
+        top: -760px;
+    }
+
+    .header1 {
+        padding-top: 250px;
+        position: relative;
+        left: -180px;
+    }
+
+    .header2 {
+        font-size: 35px;
+        position: relative;
+        left: -180px;
+    }
+
+    img.navbar-logo {
+        height: 35px;
+        width: 35px;
+    }
+
+    a.navbar-brand {
+        font-size: 22px;
+        position: relative;
+        left: -10px;
+    }
+
+    h2 {
+        position: relative;
+        left: -180px;
+        
+    }
+
+    .animated-heading {
+        font-size: 25px;
+        position: relative;
+        left: -180px;
+    }
+
+    p {
+        font-size: 15px;
+        position: relative;
+        left: -180px;
+    }
+
+    .box {
+        height: 35px;
+        width: 35px;
+        margin: 12px;
+        margin-top: 65px;
+        position: relative;
+        left: -30px;
+    }
+
+    .line {
+        margin-top: 50px;
+        width: 300px;
+        position: relative;
+        left: -200px;
+    }
+
+    .social-links {
+        left: -50px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .img1 {
+        width: 220px;
+        height: auto;
+        top: -670px;
+        left: -630px;
+    }
+
+    .header1 {
+        padding-top: 30px;
+        position: relative;
+        top: 50px;
+        left: -300px;
+    }
+
+    .header2 {
+        font-size: 40px;
+        position: relative;
+        left: -300px;
+        top: 50px;
+    }
+
+    img.navbar-logo {
+        height: 40px;
+        width: 40px;
+    }
+
+    a.navbar-brand {
+        font-size: 25px;
+        position: relative;
+        left: 0px;
+    }
+
+    h2 {
+        position: relative;
+        left: -300px;
+        top: 50px;
+    }
+
+    .animated-heading {
+        font-size: 30px;
+        position: relative;
+        left: -300px;
+    }
+
+    p {
+        font-size: 11px;
+        position: relative;
+        left: -340px;
+        margin: 40px;
+    }
+
+    .box {
+        height: 40px;
+        width: 40px;
+        margin: 15px;
+        margin-top: 20px;
+        position: relative;
+        left: -250px;
+        
+    }
+
+    .line {
+        margin-top: 40px;
+        width: 550px;
+        position: relative;
+        left: -350px;
+        top: -40px;
+    }
+
+    .social-links {
+        left: -20px;
+        top: -20px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .img1 {
+        width: 350px;
+        height: auto;
+        top: -750px;
+        left: -330px;
+    }
+
+    .header1 {
+        padding-top: 150px;
+        position: relative;
+        left: -280px;
+        top: -350px;
+    }
+
+    .header2 {
+        font-size: 45px;
+        position: relative;
+        left: -280px;
+        top: -350px;
+    }
+
+    img.navbar-logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    a.navbar-brand {
+        font-size: 18px;
+        position: relative;
+        left: 10px;
+    }
+
+    h2 {
+        position: relative;
+        left: -280px;
+        top: -350px;
+    }
+
+    .animated-heading {
+        font-size: 35px;
+        position: relative;
+        left: -280px;
+    }
+
+    .home-section p {
+        font-size: 20px;
+        position: relative;
+        left: -300px;
+        top: -100px;
+        
+    }
+
+    .box {
+        height: 45px;
+        width: 45px;
+        margin: 15px;
+        margin-top: 15px;
+        position: relative;
+        left: -20px;
+    }
+
+    .line {
+        margin-top: 30px;
+        width: 2400px;
+        position: relative;
+        left: -400px;
+        top: -50px;
+    }
+
+    .social-links {
+        position: relative;
+        left: -100px;
+        top: -50px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .img1 {
+        width: 400px;
+        height: auto;
+        top: -300px;
+        left: -50px;
+    }
+
+    .header1 {
+        padding-top: 100px;
+        position: relative;
+        left: -50px;
+    }
+
+    .header2 {
+        font-size: 50px;
+        position: relative;
+        left: -50px;
+    }
+
+    img.navbar-logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    a.navbar-brand {
+        font-size: 30px;
+        position: relative;
+        left: 20px;
+    }
+
+    h2 {
+        position: relative;
+        left: -50px;
+    }
+
+    .animated-heading {
+        font-size: 40px;
+        position: relative;
+        left: -50px;
+    }
+
+    p {
+        font-size: 22px;
+        position: relative;
+        left: -50px;
+    }
+
+    .box {
+        height: 50px;
+        width: 50px;
+        margin: 20px;
+        margin-top: 10px;
+        position: relative;
+        left: 0px;
+    }
+
+    .line {
+        margin-top: 20px;
+        width: 450px;
+        position: relative;
+        left: -50px;
+    }
+
+    .social-links {
+        left: 0px;
+    }
+}
